@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=yes">
+        <title>Olios 2 - New furniture shop</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="product-info.css">
+        <link rel="stylesheet" href="media.css">
+    </head> 
+    <body>
+        <nav class="left-menu">
+            <ul>
+                <li>
+                    <a href="new-home.html"><img class="icon-logo" src="png/logo.png"></a>
+                </li>
+                <li>
+                    <a class="icon-link" href="new-home.html"><img src="png/menu/home.png"></a>
+                </li>
+                <li>
+                    <a class="icon-link" href=""><img class ="icon_basket" src="png/menu/basket.png"></a>
+                </li>
+                <li>
+                    <a class="icon-link" href="search.html"><img class="icon_search" src="png/menu/Search.png"></a>
+                </li>
+             </ul>
+             <a class="icon-link" href=""><img class="icon-load" src="png/menu/in.png"></a>
+        </nav>
+
+        <input type="checkbox" id="side-checkbox">
+        <div class="side-panel">
+           <ul>
+               <li class="li-category"><div id="li_lr_text">Living room</div><img src="png/living room.png"></li>
+               <li class="li-category">Office<img src="png/office.png"></li>
+               <li class="li-category">For kids<img src="png/kids.png"></li>
+               <li class="li-category">Kitchen<img src="png/kitchen.png"></li>
+               <li class="li-category">Accessories<img src="png/accesories.png"></li>
+           </ul>
+           <div class="show-all">Show all categories<hr color="#0023ff" width="125" size="0.5"></div>     
+        </div>
+
+        <div class="side-button-1-wr">
+            <label class="side-button-1" for="side-checkbox">
+                <div class="side-b side-open"><div class="side-button-text-1"><b>&#9776;</b></div></div>
+                <div class="side-b side-close"><div class="side-button-text"><b>&#128938;</b></div></div>
+            </label>
+        </div>
+
+        <div class="product-photo-container">
+            <div class="like-count">
+                <div class="like-number">495</div>
+                <img src="png/heart.png">
+            </div>
+            <div class="product-scale">
+                <img class="scale-in" src="png/add.png">
+                <img class="scale-out" src="png/remove.png">
+            </div>
+
+            <div class="product-action">
+                <img class="pin" src="png/pin.png">
+                <img class="search" src="png/menu/search.png">
+            </div>
+        </div>
+
+        <div class="recommended-container">
+            <div class="recommended">Recommended</div>
+            <div class="products-rec">
+                <div class="product-black">
+                    <div class="product-text-rec product-name-rec">dark seat
+                        <br><span class="product-description-rec">Lorem ipsum dolor sit amet</span>
+                    </div>
+                </div>
+                <div class="product-blue">
+                    <div class="product-text-rec product-name-rec">blue seat
+                        <br><span class="product-description-rec">Lorem ipsum dolor sit amet</span>
+                    </div>  
+                </div>
+                <div class="product-red">
+                    <div class="product-text-rec product-name-rec">red seat
+                        <br><span class="product-description-rec">Lorem ipsum dolor sit amet</span>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <div class="header-info">
+            <div class="header-name">
+                Products
+            </div>
+            <div class="header-room">
+                <div class="header-livingroom">Living room</div>
+                <img class="header-img" src="png/living room.png">
+            </div>
+        </div>
+
+        <div class="product-information">
+            <div class="product-name">
+                <span>White seat <span class="black">-</span></span> <span class="black">office</span>
+            </div>
+            <div class="product-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br>Ut fermentum interdum malesuada. Sed ornare posuere <span>lobortis.</span>
+            </div>
+            <div class="cost-quantity-container">
+                <div class="cost">
+                    <div class="cost-text">Cost</div>
+                    <div class="cost-number">
+                        <div class="cost-actual">&#36;65</div>
+                        <div class="cost-before">&#36;90</div>
+                    </div>
+                </div>
+                <div class="quantity">
+                    <div class="quantity-text">Quantity</div>
+                    <div class="quantity-set">
+                        <div class="set-count">
+                            <div class="quantity-number">1</div>
+                            <div class="quantity-arrows">
+                                <img class="quantity-up" src="png/up.png">
+                                <img class="quantity-down" src="png/down.png">
+                            </div> 
+                        </div>
+                        <div class="view-more quantity-add quantity-add-big">Add to card</div>
+                        <div class="view-more quantity-add quantity-add-small">&#43;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
