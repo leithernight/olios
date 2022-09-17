@@ -35,7 +35,7 @@
     .product-text-table {
         float: right;
         margin-right: -30px;
-        margin-top: 50px;
+        margin-top: 50px; 
         margin-left: 20px;
         color: black;
     }
@@ -50,26 +50,15 @@
         line-height: 40px;
     }
 
-    .product-cost-table {
+    .product-cost-table {   
         font-size: 15px;
     }
 }
 
-@media only screen and (max-width: 1415px) {
+@media only screen and (max-width: 1415px) { 
     .header-livingroom {
         display: none;
     }
-
-}
-
-@media only screen and (max-width: 1300px) {
-    .product-red {
-        display: none;
-    }
-
-    /*=====================================*/
-    /*=====================================*/
-    /*=====================================*/
 
     .side-button-1 .side-b {
         width: 60px;
@@ -85,7 +74,14 @@
     .side-button-text {
         transform: translate(0, 60%);
     }
+    
+}
 
+@media only screen and (max-width: 1300px) { 
+    .product-red {
+        display: none;
+    }
+    
 }
 
 @media only screen and (max-width: 1080px) {
@@ -100,7 +96,7 @@
     .product-name {
         font-size: 43.5px;
     }
-
+    
     .product-desc {
         display: flex;
         flex-direction: column;
@@ -148,6 +144,24 @@
 
 
 @media only screen and (max-width: 991px) {
+    .product-photo-container {
+        height: 65.7%;
+    }
+
+    .recommended-container {
+        width: 93%;
+        z-index: 5;
+    }
+
+    .product-red {
+        display: inherit;
+    }
+
+    .products-rec {
+        justify-content: space-around;
+        margin-right: 20px;
+    }
+
     .home {
         background-size: 200%;
     }
@@ -187,14 +201,14 @@
     .product-action {
         margin-right: 35px;
     }
-
+    
     .like-count {
         margin-right: 35px;
     }
 
-    /*=====================================*/
-    /*=====================================*/
-    /*=====================================*/
+    .side-button-1 .side-b {
+        right: 15px;
+    }
 
     .products-container {
         width: 750px;
@@ -224,7 +238,7 @@
 
     .quantity-number {
         font-size: 20px;
-    }
+    }   
 
     .quantity-set {
         margin-top: 12px;
@@ -232,7 +246,7 @@
 
     .quantity-add-big {
         display: none;
-    }
+     }
 
     .quantity-add-small {
         display: inherit;
@@ -241,17 +255,13 @@
         padding: 0 20px;
         padding-bottom: 3px;
         font-weight: 300;
-    }
+     }
 
-    .header-name {
+     .header-name {
         font-size: 30px;
-    }
+     }
 
-    /*=====================================*/
-    /*=====================================*/
-    /*=====================================*/
-
-    .products-container {
+     .products-container {
         width: 600px
     }
 
@@ -277,7 +287,6 @@
         margin-right: 0px;
         margin-bottom: auto;
     }
-
 }
 
 @media only screen and (max-width: 860px) {
@@ -288,10 +297,6 @@
     .product-black {
         margin-right: 40px;
     }
-
-    /*=====================================*/
-    /*=====================================*/
-    /*=====================================*/
 
     .dark-seat {
         margin-left: 10px;
@@ -311,13 +316,41 @@
     }
 }
 
-@media only screen and (max-width: 768px) and (orientation: portrait) {}
+@media only screen and (max-width: 768px) {
+    .product-photo-container {
+        width: 47.5%;
+    }
 
-@media only screen and (max-width: 736px) {
+    .product-information {
+        margin-left: 56vw;
+        margin-top: 15vh;
+    }
 
-    /*=====================================*/
-    /*=====================================*/
-    /*=====================================*/
+    .header-info {
+        margin-left: 56vw;
+    }
+
+    .quantity-add-small {
+        margin-left: 15px;
+     }
+
+     .header-room {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 736px) { 
+    .header-name {
+        display: none;
+    }
+
+    .header-room {
+        margin-left: -20px;
+    }
+
+    .product-photo-container {
+        background-position: center, 100%;
+    }
 
     .search-form input {
         font-size: 50px;
@@ -390,11 +423,89 @@
     }
 }
 
-@media only screen and (max-width: 480px) and (orientation: portrait) {
+@media only screen and (max-width: 717px) {
+    .product-description-rec {
+        display: none;
+    }
 
-    /*=====================================*/
-    /*=====================================*/
-    /*=====================================*/
+    .pin {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .product-photo-container {
+        width: 95%;
+        height: 45%;
+        background-size: 250px;
+    }
+    .product-scale {
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+
+    .product-action {
+        margin-bottom: 20px;
+    }
+
+    .like-count {
+        margin: 0 0;
+        margin-left: 40px;
+        margin-top: 25px;
+        float: left;
+    }
+
+    .product-information {
+        width: 85%;
+        margin-left: 12.5vw;
+        margin-top: 47.5vh;
+    }
+
+    .recommended-container {
+        height: 20%;
+    }
+
+    .product-name {
+        font-size: 30px;
+    }
+
+    .product-desc {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .recommended {
+        transform: none;
+        top: 0;
+        margin: 10px 30px;
+        font-size: 20px;
+    }
+
+    .products-rec {
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .product-black {
+        background-size: 100px;
+    }
+
+    .product-blue {
+        background-size: 100px;
+    }
+
+    .product-red {
+        background-size: 100px;
+    }
+
+    .product-text-rec {
+        display: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
     .side-panel {
         right: -120%;
         width: 220px;
@@ -445,11 +556,6 @@
 }
 
 @media only screen and (max-width: 320px) and (orientation: portrait) {
-
-    /*=====================================*/
-    /*=====================================*/
-    /*=====================================*/
-
     .left-menu {
         min-width: 30px;
     }
