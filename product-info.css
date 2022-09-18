@@ -78,7 +78,7 @@ html {
     background: #fff;
     width: 55vw;
     min-width: 55vw;
-    height: 300px;
+    height: 34.3%;
     box-shadow: 1px 0 10px #d5d5d5;
     margin-left: 5vw;
     z-index: 3;
@@ -88,19 +88,22 @@ html {
     position: absolute;
     color: #ddd;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: calc(100vh/30);
     font-weight: 300;
     transform: rotate(-90deg);
-	transform-origin: left top 0;
+    transform-origin: left top 0;
     bottom: 0;
     margin-left: 3vw;
  }
 
  .products-rec {
     margin-left: 70px;
-    margin-top: 20px;
+    margin-top: calc(1vh/1200);
     display: flex;
     justify-content: space-evenly;
+    bottom: 17.15%;
+    height: 100%;
+    background-position: 50% 50%;
 }
 
 .product-text-rec {
@@ -180,8 +183,8 @@ html {
 
 .header-img {
     height: 40px;
-    width: auto;   
-    margin-left: 25px;     
+    width: auto;
+    margin-left: 25px;
  }
 
 .product-information {
