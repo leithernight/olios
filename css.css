@@ -25,7 +25,7 @@ li {
 
 .home {
     background: url(png/slider0.png);
-    background-size: 70%;
+    background-size: 1300px;
     background-position: center bottom;
     background-repeat: no-repeat;
     min-width: 100%;
@@ -44,7 +44,7 @@ li {
     display: flex;
     flex-direction: row-reverse;
     bottom: 50px;
-    right: 3%; 
+    right: 3%;
 }
 
 .select > div {
@@ -76,7 +76,7 @@ li {
     transform: translateX(-50%);
     font-weight: 100;
     font-size: 150px;
-    margin-top: 20vh;
+    margin-top: 10vw;
     z-index: 3;
 }
   
@@ -98,7 +98,6 @@ li {
     z-index: 4;
     font-weight: 300;
     font-size: 15px;
-    /* min-width: 100px; */
 }
     .view-more a {
         color: #FFFFFF;
@@ -156,9 +155,8 @@ li {
         z-index: 7;
         top: 0;
         bottom: 0;
-        right: -100%;
+        right: -1000%;
         background: #fff;
-        transition: all 0.5s;
         width: 320px;
         height: 100%;
         box-shadow: 1px 0 5px #b9b9b9;
