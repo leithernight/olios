@@ -72,20 +72,24 @@ li {
 .header {
     position: absolute;
     left: 50%;
-    line-height: 0.06;
+    line-height: 0.7;
     transform: translateX(-50%);
     font-weight: 100;
     font-size: 150px;
-    margin-top: 10vw;
+    margin-top: 8vw;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
   
-.header span {
+.sub {
     font-weight: 300;
     font-size: 25px;
     min-width: 100px;
-    line-height: 0.1;
     white-space: nowrap;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .view-more {
@@ -93,6 +97,7 @@ li {
     padding: 13px 40px;
     border-radius: 25px;
     margin: 0 auto;
+    margin-top: 20px;
     text-decoration: none;
     border-style: none;
     z-index: 4;
