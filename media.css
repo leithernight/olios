@@ -325,7 +325,6 @@
 
     .product-text-rec {
         margin-left: 0;
-        /* margin-top: 140%; */
     }
 
     .products-container {
@@ -338,12 +337,9 @@
     }
 
     .products-rec {
-        /* margin-left: 35px; */
         margin-top: 0;
     }
-    .recommended {
-        /* font-size: 25px; */
-    }
+
 }
 
 @media only screen and (max-height: 860px) and (orientation: landscape) {
@@ -538,11 +534,8 @@
     .product-text-rec {
         margin-top: 120px;
     }
-    .product-name-rec {
-        /* margin-left: 50px; */
-    }
+
     .products-rec {
-        /* margin-left: 35px; */
         margin-top: 0;
     }
     .header-info {
@@ -901,9 +894,6 @@
 }
 
 @media only screen and (max-height: 480px) and (max-width: 1200px) and (orientation: landscape) {
-    .product-name-rec {
-        /* margin-left: 20px; */
-    }
 
     .product-information {
         width: 45vw;
